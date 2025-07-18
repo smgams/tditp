@@ -1,0 +1,38 @@
+.post-content {
+  clear: both;
+  margin-bottom: 20px;
+}
+.post-content img {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 10px;
+  float: left;
+  max-width: 40%;
+}
+@media screen and (max-width: 900px) {
+  .post-content img {
+    margin-right: 0px;
+    margin-top: 20px;
+    float: none;
+    max-width: 100%;
+  }
+}
+.post-title-link h4 {
+  text-decoration: none;
+  color: #000;
+  font-weight: 400;
+  margin-top: 6px;
+}
+.post-date {
+  font-style: italic;
+  font-size: 1em;
+  color: #ccc;
+  margin-top: 0px;
+}
+.post-year {
+  color: #333;
+  margin-left: 10px;
+}
+.post-content p {
+  margin-bottom: 10px !important;
+}
